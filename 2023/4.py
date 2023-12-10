@@ -7,7 +7,6 @@ total = 0
 for line in lines:
     this_total=0
     card = line.split(":")[1]
-    print(card)
     have, win = card.split("|")
     
     have = have.split()
